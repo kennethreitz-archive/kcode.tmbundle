@@ -3,7 +3,15 @@ kCode for TextMate
 
 Anyone who hasn't been living under a rock for the past 5 months has seen the ZenCoding project. The [Sparkup Bundle](http://github.com/rstacruz/sparkup) brought a lot more to the table then raw ZenCoding did. So, I took the best parts of both, and made the ultimate TextMate zen bundle.
 
-Usage
+
+Features
+--------
+* Sparkup / ZenCoding Expansion ( &#x2318;E )	
+* HTML Tag Selection ( &#x2318;D )	
+* HTML Tag Delete ( &#x2318;&#x21E7;&#x232B;)
+* Bundle Update via Git
+
+Code Expansion Usage
 -----
 `#header > ul#nav > li.small*2 < h1{Page Title} + p{lorem ipsum}` expands to:
 
@@ -15,14 +23,6 @@ Usage
 	    <h1>Page Title</h1>
 	    <p>lorem ipsum</p>
 	</div>
-
-
-Features
---------
-* Sparkup / ZenCoding Expansion ( &#x2318;E )	
-* HTML Tag Selection ( &#x2318;D )	
-* HTML Tag Delete ( &#x2318;&#x21E7;&#x232B;)
-* Bundle Update via Git
 
 On the Horizon
 --------------
