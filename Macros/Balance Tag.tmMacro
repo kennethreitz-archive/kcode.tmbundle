@@ -33,7 +33,7 @@
 	<key>keyEquivalent</key>
 	<string>@d</string>
 	<key>name</key>
-	<string>Balance Tag</string>
+	<string>Select Tag</string>
 	<key>uuid</key>
 	<string>zen-balance-outward-2</string>
 </dict>

@@ -4,12 +4,30 @@
 <dict>
 	<key>beforeRunningCommand</key>
 	<string>nop</string>
+	<key>command</key>
+	<string>#!/usr/bin/env python
+import sys; import os; sys.path.append(os.getenv('TM_BUNDLE_SUPPORT')); import sparkup
+
+# You may change these options to your liking.
+# Those starting with # are comments (disabled).
+options = {
+  'textmate': True,
+  'no-last-newline': True,
+ #'start-guide-format': 'Begin %s',
+ #'end-guide-format': 'End %s',
+}
+
+sparkup.Router().start(options=options)</string>
+	<key>fallbackInput</key>
+	<string>line</string>
 	<key>input</key>
 	<string>selection</string>
+	<key>keyEquivalent</key>
+	<string>@e</string>
 	<key>name</key>
-	<string>Sparkup Expand</string>
+	<string>Zen+Sparkup Expand</string>
 	<key>output</key>
-	<string>replaceSelectedText</string>
+	<string>insertAsSnippet</string>
 	<key>uuid</key>
 	<string>EF1F0ADB-1A4D-411A-9BDB-FF9837072CB2</string>
 </dict>
