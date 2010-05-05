@@ -24,12 +24,6 @@ Code Expansion Usage
 	    <p>lorem ipsum</p>
 	</div>
 
-On the Horizon
---------------
-
-* Tabs -> Spaces Shortcut
-* ??
-
 Installation
 ------------
 
@@ -38,6 +32,12 @@ Installation
 	git clone git://github.com/kennethreitz/kCode.tmBundle.git
 	osascript -e 'tell app "TextMate" to reload bundles'
 
+
+On the Horizon
+--------------
+
+* Tabs -> Spaces Shortcut
+* ??
 
 Special Thanks
 --------------
