@@ -41,5 +41,7 @@ On the Horizon
 
 Special Thanks
 --------------
+
+This bundle couldn't be possible without the innovation of these incredible projects: 
 * [ZenCoding](http://code.google.com/p/zen-coding)
 * [Sparkup](http://github.com/rstacruz/sparkup)
