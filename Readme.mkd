@@ -1,0 +1,42 @@
+kCode for TextMate
+==================
+
+Anyone who hasn't been living under a rock for the past 5 months has seen the ZenCoding project. The [Sparkup Bundle](http://github.com/rstacruz/sparkup) brought a lot more to the table then raw ZenCoding did. So, I took the best parts of both, and made the ultimate TextMate zen bundle.
+
+
+Installation
+------------
+
+	mkdir -p ~/Library/Application\ Support/TextMate/Bundles
+	cd !$
+	git clone git://github.com/kennethreitz/kCode.tmBundle.git
+	osascript -e 'tell app "TextMate" to reload bundles'
+	
+Features
+--------
+* Sparkup / ZenCoding Expansion ( &#x2318;E )	
+* HTML Tag Selection ( &#x2318;D )	
+* HTML Tag Delete ( &#x2318;&#x21E7;&#x232B;)
+* Bundle Update via Git
+
+On the Horizon
+--------------
+
+* Tabs -> Spaces Shortcut
+* ??
+
+Special Thanks
+--------------
+* [ZenCoding](http://code.google.com/p/zen-coding)
+* [Sparkup](http://github.com/rstacruz/sparkup)
+
+
+
+
+Contributing
+------------
+1. fork me
+1. change me
+1. git commit
+1. git push
+1. pull request me
