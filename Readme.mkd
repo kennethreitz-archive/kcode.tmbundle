@@ -25,18 +25,19 @@ On the Horizon
 * Tabs -> Spaces Shortcut
 * ??
 
+Usage
+-----
+	#header > ul > li < p{Footer} expands to:
+
+	<!-- The < symbol goes back up the parent; i.e., the opposite of >. -->
+	<div id="header">
+	    <ul>
+	        <li></li>
+	    </ul>
+	    <p>Footer</p>
+	</div>
+
 Special Thanks
 --------------
 * [ZenCoding](http://code.google.com/p/zen-coding)
 * [Sparkup](http://github.com/rstacruz/sparkup)
-
-
-
-
-Contributing
-------------
-1. fork me
-1. change me
-1. git commit
-1. git push
-1. pull request me
