@@ -10,7 +10,7 @@ Usage
 	<div id="header">
 	    <ul id="nav">
 	        <li class="small"></li>
-           <li class="small"></li>
+	        <li class="small"></li>
 	    </ul>
 	    <p>Footer</p>
 	</div>
