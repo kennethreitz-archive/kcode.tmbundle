@@ -5,14 +5,15 @@ Anyone who hasn't been living under a rock for the past 5 months has seen the Ze
 
 Usage
 -----
-`#header > ul#nav > li.small*2 < p{Footer}` expands to:
+`#header > ul#nav > li.small*2 < h1{Page Title} + p{lorem ipsum}` expands to:
 
 	<div id="header">
 	    <ul id="nav">
 	        <li class="small"></li>
 	        <li class="small"></li>
 	    </ul>
-	    <p>Footer</p>
+	    <h1>Page Title</h1>
+	    <p>lorem ipsum</p>
 	</div>
 
 
