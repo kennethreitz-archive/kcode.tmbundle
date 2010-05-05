@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>kCode</string>
+	<key>ordering</key>
+	<array>
+		<string>zen-remove-tag-3</string>
+		<string>zen-balance-outward-2</string>
+		<string>EF1F0ADB-1A4D-411A-9BDB-FF9837072CB2</string>
+		<string>FC3E137B-6E92-40C9-BAF6-ED13182D7269</string>
+	</array>
+	<key>uuid</key>
+	<string>3F3B4BEF-F826-47EA-8575-876F1AEBB999</string>
+</dict>
+</plist>
