@@ -5,7 +5,7 @@ Anyone who hasn't been living under a rock for the past 5 months has seen the Ze
 
 Usage
 -----
-	#header > ul > li < p{Footer} expands to:
+`#header > ul > li < p{Footer}` expands to:
 
 	<!-- The < symbol goes back up the parent; i.e., the opposite of >. -->
 	<div id="header">
