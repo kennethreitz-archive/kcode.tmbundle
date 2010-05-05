@@ -3,15 +3,19 @@ kCode for TextMate
 
 Anyone who hasn't been living under a rock for the past 5 months has seen the ZenCoding project. The [Sparkup Bundle](http://github.com/rstacruz/sparkup) brought a lot more to the table then raw ZenCoding did. So, I took the best parts of both, and made the ultimate TextMate zen bundle.
 
+Usage
+-----
+	#header > ul > li < p{Footer} expands to:
 
-Installation
-------------
+	<!-- The < symbol goes back up the parent; i.e., the opposite of >. -->
+	<div id="header">
+	    <ul>
+	        <li></li>
+	    </ul>
+	    <p>Footer</p>
+	</div>
 
-	mkdir -p ~/Library/Application\ Support/TextMate/Bundles
-	cd !$
-	git clone git://github.com/kennethreitz/kCode.tmBundle.git
-	osascript -e 'tell app "TextMate" to reload bundles'
-	
+
 Features
 --------
 * Sparkup / ZenCoding Expansion ( &#x2318;E )	
@@ -25,17 +29,14 @@ On the Horizon
 * Tabs -> Spaces Shortcut
 * ??
 
-Usage
------
-	#header > ul > li < p{Footer} expands to:
+Installation
+------------
 
-	<!-- The < symbol goes back up the parent; i.e., the opposite of >. -->
-	<div id="header">
-	    <ul>
-	        <li></li>
-	    </ul>
-	    <p>Footer</p>
-	</div>
+	mkdir -p ~/Library/Application\ Support/TextMate/Bundles
+	cd !$
+	git clone git://github.com/kennethreitz/kCode.tmBundle.git
+	osascript -e 'tell app "TextMate" to reload bundles'
+
 
 Special Thanks
 --------------
