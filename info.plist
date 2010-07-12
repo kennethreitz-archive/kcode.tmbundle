@@ -10,9 +10,22 @@
 			<string>zen-balance-outward-2</string>
 			<string>zen-remove-tag-3</string>
 			<string>FC3E137B-6E92-40C9-BAF6-ED13182D7269</string>
+			<string>73A48D2B-D843-42A1-A288-0D1A6380043B</string>
+			<string>16E77FF0-4AA7-4592-A080-8DACD8967C37</string>
 		</array>
 		<key>submenus</key>
-		<dict/>
+		<dict>
+			<key>16E77FF0-4AA7-4592-A080-8DACD8967C37</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>ABDF10D5-DDD1-41D5-B026-D84803321E2F</string>
+					<string>020EAAC5-933E-4DF1-8466-962DC420BAAB</string>
+				</array>
+				<key>name</key>
+				<string>Python</string>
+			</dict>
+		</dict>
 	</dict>
 	<key>name</key>
 	<string>kCode</string>
