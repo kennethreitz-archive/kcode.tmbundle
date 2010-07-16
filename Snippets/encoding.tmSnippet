@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string># -*- coding: utf-8 -*-</string>
 	<key>name</key>
-	<string>encoding</string>
+	<string>Python: encoding</string>
 	<key>scope</key>
 	<string>source.python</string>
 	<key>tabTrigger</key>

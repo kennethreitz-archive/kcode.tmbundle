@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>#!/usr/bin/env python</string>
+	<string>print(${1:'string'})</string>
 	<key>name</key>
-	<string>Python: shebang</string>
+	<string>Python: print</string>
 	<key>scope</key>
 	<string>source.python</string>
 	<key>tabTrigger</key>
-	<string>env</string>
+	<string>p</string>
 	<key>uuid</key>
-	<string>020EAAC5-933E-4DF1-8466-962DC420BAAB</string>
+	<string>0DDA19DC-8539-42DB-B99C-ACBD8168F1CE</string>
 </dict>
 </plist>
